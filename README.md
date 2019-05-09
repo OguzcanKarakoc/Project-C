@@ -30,7 +30,7 @@ Laravel is accessible, yet powerful, providing tools needed for large, robust ap
 
 For project C we had to build a webshop. ...
 
-## Showcase
+## Showcase 
 
 [![Watch the video](https://oguzcankarakoc.github.io/storage/projectc-webshop/Logo.png)](https://oguzcankarakoc.github.io/storage/projectc-webshop/showcase.mp4)
 
