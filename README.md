@@ -32,7 +32,7 @@ For project C we had to build a webshop. ...
 
 ## Showcase 
 
-[![Watch the video](https://oguzcankarakoc.github.io/storage/projectc-webshop/Logo.png)](https://oguzcankarakoc.github.io/storage/projectc-webshop/showcase.mp4)
+[![Watch the video](https://oguzcankarakoc.github.io/storage/projectc-webshop/ )](https://oguzcankarakoc.github.io/storage/projectc-webshop/showcase.mp4)
 
 ## Installation
 
