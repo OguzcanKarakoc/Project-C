@@ -25,12 +25,13 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 
 Laravel is accessible, yet powerful, providing tools needed for large, robust applications.
 
-
 ## Introduction
 
-For project C we had to build a webshop. ...
+Project C is a shoolproject. I build this webshop with a team of 4 students. It is build with the Laravel framework. We used Blade as our templating engine and Jquery (ajax).  
 
 ## Showcase 
+
+(click the image to start the video)
 
 [![Watch the video](https://oguzcankarakoc.github.io/storage/projectc-webshop/Logo.png)](https://oguzcankarakoc.github.io/storage/projectc-webshop/showcase.mp4)
 
