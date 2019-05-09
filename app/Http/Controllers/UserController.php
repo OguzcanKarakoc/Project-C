@@ -39,7 +39,7 @@ class UserController extends Controller
                 $message->subject('Account Registration');
                 $message->to($mail);
             });
-            Session::flash('message', 'Account created!');
+            Session::flash('success', 'Account created!');
             return redirect()->back();
             // return redirect()->route('user.register')->with('success', 'Account created');
         }
@@ -54,9 +54,9 @@ class UserController extends Controller
                 if ($request->server('HTTP_REFERER') == "http://127.0.0.1:8000/checkout/order") {
                     return redirect(route('order.index'))->with('flash_message_success', 'Signed in');
                 }
-                return redirect('/home')->with('flash_message_success', 'Signed in');
+                return redirect('/home')->with('success', 'Signed in');
             } else {
-                return redirect()->back()->with('flash_message_error', 'Invalid Username or Password');
+                return redirect()->back()->with('error', 'Invalid Username or Password');
             }
         }
         return view('page.front-end.user.signin');
@@ -142,7 +142,6 @@ class UserController extends Controller
             $user->password = bcrypt($userValidatedData['password']);
         }
         $user->save();
-
 
         return redirect()->route('profile.index')->with('success', 'User updated');
     }

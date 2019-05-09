@@ -37,7 +37,7 @@ class CheckoutController extends Controller
 
         }
 
-        return view('page.front-end.checkout.index', compact('orders'));
+        return view('page.front-end.checkout.index');
     }
 
     public function orderIndex()
