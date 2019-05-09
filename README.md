@@ -32,7 +32,7 @@ For project C we had to build a webshop. ...
 
 ## Showcase
 
-<insert video>
+[![Watch the video](https://oguzcankarakoc.github.io/storage/Logo.png)](https://oguzcankarakoc.github.io/storage/showcase.mp4)
 
 ## Installation
 
